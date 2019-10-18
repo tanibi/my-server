@@ -8,9 +8,9 @@ const port = process.env.PORT || 3002
 const server = http.createServer((req, res) => {
   res.statusCode = 200
   res.setHeader('Content-Type', 'text/plain')
-  res.write('Hello...\n')
-  res.write('Hello...\n')
-  res.end('Hello World! This is text - we can respond with HTML, JSON, and more :)\n')
+  res.write('Hello World! Welcome to my first node server\n')
+  res.write('Hope you enjoy!\n')
+  res.end('This is text - we can respond with HTML, JSON, and more :)\n')
 })
 
 // start listening
